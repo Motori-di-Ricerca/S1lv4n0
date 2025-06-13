@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Calendario Formula 1</title>
+    <link rel="stylesheet" href="formula1.css">
+</head>
+<body>
+    <h1>Calendario Formula 1 - 2025</h1>
+
+    <div style="display: flex; gap: 2rem;">
+        <table id="f1-calendar-left">
+            <thead>
+                <tr>
+                    <th>Stato</th>
+                    <th>Gran Premio</th>
+                    <th>Data</th>
+                    <th>Tracciato</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <table id="f1-calendar-right">
+            <thead>
+                <tr>
+                    <th>Stato</th>
+                    <th>Gran Premio</th>
+                    <th>Data</th>
+                    <th>Tracciato</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <!-- Modale per immagini circuito -->
+    <div id="imageModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h3 id="modal-title"></h3>
+            <img id="modal-image" src="" alt="" />
+        </div>
+    </div>
+
+    <footer id="footer-gif-bar"></footer>
+
+    <script src="formula1.js"></script>
+</body>
+</html>

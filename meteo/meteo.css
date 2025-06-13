@@ -1,0 +1,108 @@
+﻿body {
+    position: relative;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url("img/sfondo_meteo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 40px 20px;
+    z-index: 0;
+}
+
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.3); /* colore scuro semitrasparente */
+        z-index: -1; /* va sotto al contenuto */
+    }
+
+
+
+h1 {
+    color: #0c047a; /* blu acceso */
+    margin: -30px 0 40px 0; /* top-right-bottom-left: più spazio sopra e sotto */
+    font-size: 3rem;
+    letter-spacing: 2px; /* spaziatura tra le lettere */
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.column {
+    background-color: rgba(255,255,255,0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .column h2 {
+        color: #0c047a;
+        margin-bottom: 15px;
+    }
+
+button {
+    display: block;
+    width: 100%;
+    background-color: #5cbef7;
+    color: #0c047a;
+    font-weight: bold;
+    border: none;
+    padding: 6px 12px; /* padding verticale più piccolo */
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+    button:hover {
+        background-color: #f5c24c;
+    }
+
+.gif-links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+    .gif-links img {
+        width: 120px;
+        height: auto;
+        transition: transform 0.3s ease;
+    }
+
+        .gif-links img:hover {
+            transform: scale(1.15);
+        }
+
+#footer-gif-bar {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    background-color: transparent;
+    height: 40px;
+    transform: translateY(40px); /* sposta visivamente verso il basso */
+}
+
+    #footer-gif-bar img {
+        width: 40px;
+        height: 40px;
+        flex-shrink: 0;
+        
+    }

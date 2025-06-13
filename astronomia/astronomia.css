@@ -1,0 +1,93 @@
+﻿body {
+    position: relative;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url("img/sfondo1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 40px 20px;
+    z-index: 0;
+}
+
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.0); /* colore scuro semitrasparente */
+        z-index: -1; /* va sotto al contenuto */
+    }
+
+
+
+h1 {
+    color: #4cbcfc; /* blu acceso */
+    font-family: Arial, sans-serif;
+    margin: -30px 0 30px 0; /* top-right-bottom-left: più spazio sopra e sotto */
+    font-size: 3rem;
+    letter-spacing: 2px; /* spaziatura tra le lettere */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Ombra nera semi-trasparente */
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.column {
+    background-color: rgba(255,255,255,0.4);
+    padding: 10px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+}
+
+    .column h2 {
+        color: #0c047a;
+        margin-bottom: 15px;
+    }
+
+button {
+    display: block;
+    width: 100%;
+    background-color: #5cbef7;
+    color: #0c047a;
+    font-weight: normal;
+    border: none;
+    padding: 4px 12px; /* padding verticale più piccolo */
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+    button:hover {
+        background-color: #56fc03;
+    }
+
+
+
+#footer-gif-bar {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    background-color: transparent;
+    height: 40px;
+    transform: translateY(115px); /* sposta visivamente verso il basso */
+}
+
+    #footer-gif-bar img {
+        width: 40px;
+        height: 40px;
+        flex-shrink: 0;
+    }

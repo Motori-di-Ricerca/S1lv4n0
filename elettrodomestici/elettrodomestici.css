@@ -1,0 +1,84 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-image: url("img/sfondo2.jpg"); /* cambia con il percorso reale */
+    background-size: cover; /* Copre tutta la pagina */
+    background-position: center; /* Centra l'immagine */
+    background-repeat: no-repeat; /* Non ripete */
+    margin: 0;
+    padding: 0 10px;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+#titolo {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #3fd404;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Ombra nera semi-trasparente */
+}
+
+#titolo2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #3fd404;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Ombra nera semi-trasparente */
+}
+
+.griglia {
+    display: grid;
+    grid-template-columns: repeat(8, minmax(30px, 1fr));
+    gap: 10px;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+#griglia2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colonne */
+    gap: 10px;
+    padding: 20px;
+    width: fit-content; /* adatta la larghezza al contenuto */
+    margin: 0 auto; /* centra orizzontalmente */
+}
+
+.cella {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px; /* puoi aumentare o diminuire */
+}
+
+    .cella img {
+        max-width: 80%;
+        max-height: 100%;
+        object-fit: contain; /* mostra l'intera immagine */
+        border-radius: 6px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        transition: transform 0.2s ease;
+        border: solid 3px #3fd404;
+    }
+
+
+        .cella img:hover {
+            transform: scale(1.25);
+        }
+
+#footer-gif-bar {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+
+    #footer-gif-bar img {
+        width: 40px;
+        height: 40px;
+        flex-shrink: 0;
+    }
+

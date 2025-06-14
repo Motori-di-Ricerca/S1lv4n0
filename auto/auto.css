@@ -26,6 +26,13 @@
     max-width: 1600px;
 }
 
+/* Quando lo schermo è più stretto di 768px, passa a 3 colonne */
+@media (max-width: 768px) {
+    .griglia {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 .cella {
     display: flex;
     justify-content: center;

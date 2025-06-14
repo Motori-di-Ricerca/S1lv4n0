@@ -75,6 +75,14 @@ button {
         background-color: #56fc03;
     }
 
+/* Adatta per schermi sotto i 768px */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 20px;
+    }
+}
 
 
 #footer-gif-bar {

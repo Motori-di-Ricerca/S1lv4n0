@@ -67,3 +67,44 @@
         height: 40px;
         flex-shrink: 0;
     }
+
+/* Adatta per schermi sotto i 768px */
+@media (max-width: 768px) {
+    .griglia {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 20px;
+    }
+
+    .cella img {
+        max-width: 90%;
+        max-height: 90%;
+    }
+
+    #footer-gif-bar img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* Adatta per schermi sotto i 780px */
+@media (max-width: 780px) {
+    .griglia {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 10px;
+    }
+
+    .cella img {
+        max-width: 60%;
+        max-height: 60%;
+    }
+
+    #footer-gif-bar {
+        overflow-x: scroll;
+    }
+
+        #footer-gif-bar img {
+            width: 25px;
+            height: 25px;
+            margin-right: 5px;
+        }
+}

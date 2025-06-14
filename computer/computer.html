@@ -5,6 +5,57 @@
     <title>negozi di elettronica</title>
     <link rel="stylesheet" href="computer.css">
 </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Galleria</title>
+    <style>
+        /* … il tuo stile generale … */
+
+        /* Adatta per schermi sotto i 768px */
+        @media (max-width: 768px) {
+            .griglia {
+                grid-template-columns: repeat(3, 1fr);
+                padding: 20px;
+            }
+
+            .cella img {
+                max-width: 80%;
+                max-height: 80%;
+            }
+
+            #footer-gif-bar img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        /* Adatta per schermi sotto i 780px */
+        @media (max-width: 780px) {
+            .griglia {
+                grid-template-columns: repeat(3, 1fr);
+                padding: 10px;
+            }
+
+            .cella img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+
+            #footer-gif-bar {
+                overflow-x: scroll;
+            }
+
+                #footer-gif-bar img {
+                    width: 25px;
+                    height: 25px;
+                    margin-right: 5px;
+                }
+        }
+    </style>
+</head>
+
 <body>
     <h1 id="titolo">Computer</h1>
 
@@ -17,5 +68,6 @@
     <footer id="footer-gif-bar"></footer>
 
     <script src="computer.js"></script>
+
 </body>
 </html>

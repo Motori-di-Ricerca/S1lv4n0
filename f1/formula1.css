@@ -1,55 +1,56 @@
 ﻿body {
     font-family: Arial, sans-serif;
-    background-image: url("img/sfondo2.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    margin: 0;
-    padding: 0 10px;
+    margin: 20px;
     text-align: center;
+    background-image: url("img/sfondo2.jpg");
 }
 
 h1 {
-    font-size: 2.5rem;
-    margin: 40px 0 50px 0;
     color: #3fd404;
     text-shadow: 2px 2px 4px rgba(247, 211, 5, 0.8);
+    margin-bottom: 30px;
 }
 
+/* Contenitore flex per tabelle */
 .calendar-container {
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap;
-    
+    flex-wrap: nowrap;
 }
 
-#f1-calendar-left{
+/* Tabelle */
+table {
     width: 45%;
     border-collapse: collapse;
-    background-color: rgba(255,255,255,0.7);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-left: 4%;
+    background-color: rgba(255,255,255,0.6);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-#f1-calendar-right {
-    width: 45%;
-    border-collapse: collapse;
-    background-color: rgba(255,255,255,0.7);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
 th, td {
-    padding: 0px;
     border: 1px solid #ddd;
-    text-align: center;
+    padding: 8px;
     font-weight: bold;
-    font-size: 19px;
+    font-size: 18px;
+    text-align: center;
 }
 
 th {
     background-color: #d40000;
     color: white;
+}
+
+/* Responsive: tabelle in colonna su schermi stretti */
+@media (max-width: 787px) {
+    .calendar-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    table {
+        width: 90%;
+        margin-bottom: 20px;
+    }
 }
 
 img {

@@ -77,3 +77,12 @@ h1 {
         flex-shrink: 0;
     }
 
+@media (max-width: 768px) {
+    #grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grid-item img {
+        max-width: 100%;
+        height: auto;
+    }
+}

@@ -29,6 +29,7 @@ h1 {
     margin: -30px 0 40px 0; /* top-right-bottom-left: più spazio sopra e sotto */
     font-size: 3rem;
     letter-spacing: 2px; /* spaziatura tra le lettere */
+    text-shadow: 2px 2px 4px rgba(92, 190, 247, 0.8);
 }
 
 
@@ -112,3 +113,8 @@ button {
     }
 }
 
+.gif-links img {
+    width: 80px;
+    height: auto;
+    transition: transform 0.3s ease;
+}

@@ -61,7 +61,6 @@ img {
 }
 
 #footer-gif-bar {
-    position: fixed;
     bottom: 20px;
     left: 0;
     width: 100%;
@@ -119,4 +118,15 @@ img {
     font-size: 24px;
     font-weight: bold;
     cursor: pointer;
+}
+
+/* Responsive: tabelle in colonna su schermi stretti */
+@media (max-width: 500px){
+    th, td {
+        border: 1px solid #ddd;
+        padding: 2px;
+        font-weight: bold;
+        font-size: 12px;
+        text-align: center;
+    }
 }

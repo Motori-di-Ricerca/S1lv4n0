@@ -16,6 +16,8 @@ window.addEventListener("DOMContentLoaded", function () {
         { immagine: "img/omcomputers.gif", link: "https://omcomputers.store/" },
         { immagine: "img/pcity.gif", link: "https://www.pccity.it/" },
         { immagine: "img/planetone.gif", link: "https://www.planet-one.it/" },
+        { immagine: "img/unieuro.gif", link: "https://www.unieuro.it/" },
+
 
         // Aggiungi altre immagini manualmente...
     ];
@@ -61,13 +63,3 @@ window.addEventListener('load', () => {
 window.addEventListener('resize', () => {
     populateFooterGIFs('img/gif06.gif', 'img/gif07.gif');
 });
-
-
-// Imposta dimensione iniziale
-aggiornaDimensione(select.value);
-
-// Cambia quando l'utente seleziona
-select.addEventListener("change", function () {
-    aggiornaDimensione(this.value);
-});
-// JavaScript source code

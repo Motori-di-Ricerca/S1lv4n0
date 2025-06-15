@@ -50,7 +50,6 @@
         }
 
 #footer-gif-bar {
-    position: fixed;
     bottom: 20px;
     left: 0;
     width: 100%;
@@ -59,6 +58,7 @@
     flex-wrap: nowrap;
     overflow: hidden;
     background-color: transparent;
+    transform:translateY(185px);
 }
 
 
@@ -80,31 +80,5 @@
         max-height: 90%;
     }
 
-    #footer-gif-bar img {
-        width: 30px;
-        height: 30px;
-    }
 }
 
-/* Adatta per schermi sotto i 780px */
-@media (max-width: 780px) {
-    .griglia {
-        grid-template-columns: repeat(3, 1fr);
-        padding: 10px;
-    }
-
-    .cella img {
-        max-width: 60%;
-        max-height: 60%;
-    }
-
-    #footer-gif-bar {
-        overflow-x: scroll;
-    }
-
-        #footer-gif-bar img {
-            width: 25px;
-            height: 25px;
-            margin-right: 5px;
-        }
-}

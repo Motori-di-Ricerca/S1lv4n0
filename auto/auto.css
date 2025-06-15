@@ -64,6 +64,7 @@
     flex-wrap: nowrap;
     overflow: hidden;
     background-color: transparent;
+    transform: translateY(75px);
 }
 
 

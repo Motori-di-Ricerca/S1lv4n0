@@ -89,12 +89,3 @@ window.addEventListener('load', () => {
 window.addEventListener('resize', () => {
     populateFooterGIFs('img/gif06.gif', 'img/gif07.gif');
 });
-
-
-// Imposta dimensione iniziale
-aggiornaDimensione(select.value);
-
-// Cambia quando l'utente seleziona
-select.addEventListener("change", function () {
-    aggiornaDimensione(this.value);
-});

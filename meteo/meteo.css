@@ -98,7 +98,7 @@ button {
     overflow: hidden;
     background-color: transparent;
     height: 40px;
-    transform: translateY(40px); /* sposta visivamente verso il basso */
+    transform: translateY(70px); /* sposta visivamente verso il basso */
 }
 
     #footer-gif-bar img {

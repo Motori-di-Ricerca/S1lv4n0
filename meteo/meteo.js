@@ -17,6 +17,7 @@ const weatherLinks = {
         { name: "Tempo Italia", url: "http://www.tempoitalia.it/m" },
         { name: "3Bmeteo", url: "https://www.3bmeteo.com" },
         { name: "Il Meteo", url: "https://www.ilmeteo.it" },
+        { name: "Meteo.it", url: "https://www.meteo.it" },
     ],
     "Meteo Regionali": [
         { name: "ARPA Friuli Venezia Giulia", url: "http://www.osmer.fvg.it" },

@@ -46,7 +46,7 @@ window.addEventListener("DOMContentLoaded", function () {
             id: 13,
             logo: "img/belgio.jpg",
             gp: "GP Belgio",
-            data: "4 - 6 luglio 2025",
+            data: "25 - 27 luglio 2025",
             luogo: "Spa-Francorchamps Circuit"
         },
         {

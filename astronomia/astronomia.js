@@ -15,7 +15,7 @@ const weatherLinks = {
         { name: "Planetologia Italiana ", url: "http://www.sait.it/" },
         { name: "Agenzia Spaziale Italiana", url: "http://www.asi.it/" },
         { name: "Istituto Nazionale per l'Astrofisica", url: "http://www.inaf.it/" },
-        { name: "Astrolabio KameNoEma", url: "" },
+        { name: "Astrolabio KameNoEma", url: "https://stellarisphere.github.io/Astrolabio/" },
         { name: "Costellazioni KameNoEma", url: "https://databasecostellazioni.github.io/Costellazioni/" },
         
 

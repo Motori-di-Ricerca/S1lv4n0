@@ -6,10 +6,26 @@
 }
 
 h1 {
-    color: #3fd404;
-    text-shadow: 2px 2px 4px rgba(247, 211, 5, 0.8);
+    color: #e10600;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
     margin-bottom: 30px;
 }
+
+.btn-link {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 6px 12px;
+    background-color: #e10600; /* Rosso F1 */
+    color: white;
+    text-decoration: none;
+    border-radius: 11px;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-link:hover {
+        background-color: #940101;
+    }
 
 /* Contenitore flex per tabelle */
 .calendar-container {

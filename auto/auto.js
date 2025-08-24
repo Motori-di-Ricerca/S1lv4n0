@@ -11,6 +11,7 @@
             { immagine: "img/chevrolet.gif", link: "http://www.chevrolet.it/" },
             { immagine: "img/chrysler.gif", link: "https://www.chrysler.com/" },
             { immagine: "img/citroen.gif", link: "http://www.citroen.it/" },
+            { immagine: "img/dacia.gif", link: "https://www.dacia.it/" },
             { immagine: "img/daihatsu.gif", link: "http://www.daihatsu.it/" },
             { immagine: "img/dodge.gif", link: "https://www.dodge.com/" },
             { immagine: "img/ferrari.gif", link: "https://www.ferrari.com/it-IT" },

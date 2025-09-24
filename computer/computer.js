@@ -10,6 +10,7 @@ window.addEventListener("DOMContentLoaded", function () {
         { immagine: "img/essedi.gif", link: "http://www.essedishop.it/" },
         { immagine: "img/euronics.gif", link: "https://www.euronics.it/" },
         { immagine: "img/expert.gif", link: "http://www.expert-italia.it/" },
+        { immagine: "img/gamelife.gif", link: "https://www.gamelife.it/" },
         { immagine: "img/marcopoloshop.gif", link: "http://www.marcopoloshop.it/" },
         { immagine: "img/mediamark.gif", link: "https://www.mediamarkt.at/" },
         { immagine: "img/mediaworld.gif", link: "http://www.mediaworld.it/" },

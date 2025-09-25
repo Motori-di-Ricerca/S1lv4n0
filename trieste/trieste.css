@@ -85,6 +85,9 @@ h1 {
     #grid-container {
         grid-template-columns: repeat(2, 1fr);
     }
+    .blur-box {
+        max-width: 90%;
+    }
     .grid-item img {
         max-width: 100%;
         height: auto;

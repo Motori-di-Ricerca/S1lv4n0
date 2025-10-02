@@ -26,12 +26,7 @@
     max-width: 1600px;
 }
 
-/* Quando lo schermo è più stretto di 768px, passa a 3 colonne */
-@media (max-width: 768px) {
-    .griglia {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
+
 
 .cella {
     display: flex;
@@ -76,3 +71,24 @@
 
 
 
+    /* Quando lo schermo è più stretto di 768px, passa a 3 colonne */
+@media (max-width: 768px) {
+    .griglia {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .cella img {
+        max-width: 60%;
+        max-height: 60%;
+    }
+}
+/* Quando lo schermo è più stretto di 400px, passa a 3 colonne */
+@media (max-width: 400px) {
+    .griglia {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .cella img {
+        max-width: 90%;
+        max-height: 90%;
+    }
+}

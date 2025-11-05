@@ -1,0 +1,98 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f2ff;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-image: url("img/sfondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #e81313;
+    margin: 0px 0 40px 0; /* top-right-bottom-left: più spazio sopra e sotto */
+    font-size: 3rem;
+    letter-spacing: 2px; /* spaziatura tra le lettere */
+    text-shadow: 2px 2px 4px rgb(0, 38, 255);
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: -20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-items: center; /* <-- centra orizzontalmente */
+    align-items: center; /* <-- centra verticalmente (opzionale) */
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+    .grid-item img {
+        max-width: 185px; /* Limite massimo in larghezza */
+        max-height: 120px; /* Limite massimo in altezza */
+        width: auto;
+        height: auto;
+        margin-top: 4px;
+        border-radius: 0 10px 10px 0;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        transition: transform 0.3s ease;
+        cursor: pointer;
+    }
+
+
+
+.blur-box {
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 8px;
+    border-radius: 0 15px 15px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+    .blur-box:hover {
+        transform: scale(1.20);
+    }
+
+#footer-gif-bar {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+
+    #footer-gif-bar img {
+        width: 40px;
+        height: 40px;
+        flex-shrink: 0;
+    }
+
+@media (max-width: 768px) {
+    #grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blur-box {
+        max-width: 90%;
+    }
+
+    .grid-item img {
+        max-width: 100%;
+        height: auto;
+    }
+}

@@ -15,6 +15,7 @@ const links = [
     { url: "http://bora.la/", img: "img/15bora.png" },
     { url: "https://explorerfvg.com/", img: "img/16explorer.png" },
     { url: "https://www.pallacanestrotrieste.it/", img: "img/17palla.png" },
+    { url: "immobiliari/immobiliari.html", img: "img/18immobiliari.png" } //
 ];
 
 function createGrid() {

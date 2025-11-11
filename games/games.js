@@ -3,7 +3,8 @@
 const games = [
 { title: "Scarabeo", img: "img/scarabeo.jpg", desc: "Componi parole di senso compiuto", link: "http://scarabeoitaliano.github.io/Scrabble/" },
 { title: "Tiny Golf", img: "img/golf.jpg", desc: "Riuscirai a diventare il golfer più bravo di tutti?", link: "http://tinygolf.github.io/TinyGolfClub" },
-{ title: "Game 2", img: "img/scarabeo.jpg", desc: "Descrizione del game 2", link: "http://.github.io/" },
+{ title: "Wordle", img: "img/wordle.jpg", desc: "Indovina la parola", link: "https://wordleitaliano.github.io/WordleGame/" },
+{ title: "ColorMatch", img: "img/colormatch.jpg", desc: "Riordina i colori in scala cromatica", link: "https://shufflecolormatch.github.io/ColorMatch/" },
 
 ];
 
@@ -11,7 +12,11 @@ const games = [
 const apps = [
 { title: "Call of the wild - the Angler", img: "img/cotw.jpg", desc: "Guida esche dei pesci nelle riserve", link: "http://call-of-the-wild.github.io/COTW/" },
 { title: "Astrolabio", img: "img/astrolabio.jpg", desc: "Una visione sul cielo di oggi", link: "https://stellarisphere.github.io/Astrolabio/" },
-{ title: "App 2", img: "img/scarabeo.jpg", desc: "Descrizione dell'app 2", link: "http://.github.io/" },
+{ title: "Costellazioni", img: "img/costellazioni.jpg", desc: "Scopri il cielo stellato", link: "https://databasecostellazioni.github.io/Costellazioni/" },
+{ title: "Formula 1", img: "img/f1.jpg", desc: "Punteggi e classifiche", link: "https://database-formula-1.github.io/F1/" },
+{ title: "Orienteering", img: "img/orienteering.jpg", desc: "Classifica Orienteering PuntoK", link: "https://orienteeringpuntok.github.io/ClassificaPuntoK/" },
+{ title: "Primogens counter", img: "img/genshin.jpg", desc: "Calcola il tuo destino", link: "https://primogenscounter.github.io/Counter/" },
+    
 ];
 
 

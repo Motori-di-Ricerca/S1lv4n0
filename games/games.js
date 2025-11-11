@@ -19,7 +19,8 @@ function renderCards(list, containerId) {
 const container = document.getElementById(containerId);
 list.forEach(item => {
 const card = document.createElement('div');
-card.className = 'card';
+    card.className = containerId === "apps-list" ? "card app-card" : "card";
+
 card.innerHTML = `
 <a href="${item.link}" target="_blank">
 <img src="${item.img}" alt="${item.title}" />

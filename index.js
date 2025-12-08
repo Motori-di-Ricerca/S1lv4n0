@@ -6,7 +6,7 @@ const linkPulsanti = [
     "trieste/trieste.html", // Indirizzi utili di Trieste
     "meteo/meteo.html", // Meteo
     "auto/auto.html", // Auto
-    "f1/formula1.html",// Calendario Formula 1 2025
+    "f1_2026/formula1.html",// Calendario Formula 1 2025
     "elettrodomestici/elettrodomestici.html", // Audio TV Elettrodomestici
     "computer/computer.html", // Computer e Telefonia
     "astronomia/astronomia.html", // Astronomia

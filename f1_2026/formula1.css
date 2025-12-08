@@ -1,0 +1,148 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+    background-image: url("img/sfondo.jpg");
+}
+
+h1 {
+    color: #e10600;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+    margin-bottom: 30px;
+}
+
+.btn-link {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 6px 12px;
+    background-color: #e10600; /* Rosso F1 */
+    color: white;
+    text-decoration: none;
+    border-radius: 11px;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-link:hover {
+        background-color: #940101;
+    }
+
+/* Contenitore flex per tabelle */
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+
+/* Tabelle */
+table {
+    width: 45%;
+    border-collapse: collapse;
+    background-color: rgba(255,255,255,0.6);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+th {
+    background-color: #d40000;
+    color: white;
+}
+
+/* Responsive: tabelle in colonna su schermi stretti */
+@media (max-width: 787px) {
+    .calendar-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    table {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+
+img {
+    width: auto;
+    height: 35px;
+    padding: 5px;
+    border-radius: 0 25px 0 25px;
+}
+
+#footer-gif-bar {
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+    #footer-gif-bar img {
+        width: 40px;
+        height: 40px;
+        flex-shrink: 0;
+    }
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.6);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    border-radius: 50px;
+    max-width: 90%;
+    max-height: 90%;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+    .modal-content img {
+        max-width: 90vw; /* 90% della larghezza della finestra */
+        max-height: 80vh; /* 80% dell'altezza della finestra */
+        width: auto;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+
+
+.close-button {
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Responsive: tabelle in colonna su schermi stretti */
+@media (max-width: 500px){
+    th, td {
+        border: 1px solid #ddd;
+        padding: 2px;
+        font-weight: bold;
+        font-size: 12px;
+        text-align: center;
+    }
+}

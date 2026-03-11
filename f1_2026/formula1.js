@@ -69,7 +69,8 @@ window.addEventListener("DOMContentLoaded", function () {
             logo: "img/cina.jpg",
             gp: "GP Cina",
             data: "13 - 15 marzo 2026",
-            luogo: "Shanghai International Circuit"
+            luogo: "Shanghai International Circuit",
+            sprint: true
         },
         {
             id: 3,

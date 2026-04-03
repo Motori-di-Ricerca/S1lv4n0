@@ -8,6 +8,7 @@ const weatherLinks = {
         { name: "Svizzera", url: "http://www.meteoschweiz.ch" },
         { name: "Francia", url: "http://www.meteo.fr/temps/index.html" },
         { name: "Inghilterra", url: "https://www.meteoblue.com" },
+        { name: "Spagna", url: "https://www.eltiempo.es" },
         { name: "Windy", url: "https://www.windy.com" },
     ],
     "Meteo Italiani": [

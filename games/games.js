@@ -5,6 +5,7 @@ const games = [
 { title: "Tiny Golf", img: "img/golf.jpg", desc: "Riuscirai a diventare il golfer più bravo di tutti?", link: "http://tinygolf.github.io/TinyGolfClub" },
 { title: "Wordle", img: "img/wordle.jpg", desc: "Indovina la parola", link: "https://wordleitaliano.github.io/WordleGame/" },
 { title: "ColorMatch", img: "img/colormatch.jpg", desc: "Riordina i colori in scala cromatica", link: "https://shufflecolormatch.github.io/ColorMatch/" },
+    { title: "Yahtzee", img: "img/yahtzee.jpg", desc: "Lancia i dadi", link: "https://yahtzeeita.github.io/Yahtzee/" },
 
 ];
 

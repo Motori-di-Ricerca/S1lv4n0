@@ -4,9 +4,10 @@ const games = [
 { title: "Scarabeo", img: "img/scarabeo.jpg", desc: "Componi parole di senso compiuto", link: "http://scarabeoitaliano.github.io/Scrabble/" },
 { title: "Tiny Golf", img: "img/golf.jpg", desc: "Riuscirai a diventare il golfer più bravo di tutti?", link: "http://tinygolf.github.io/TinyGolfClub" },
 { title: "Wordle", img: "img/wordle.jpg", desc: "Indovina la parola", link: "https://wordleitaliano.github.io/WordleGame/" },
-{ title: "ColorMatch", img: "img/colormatch.jpg", desc: "Riordina i colori in scala cromatica", link: "https://shufflecolormatch.github.io/ColorMatch/" },
-    { title: "Yahtzee", img: "img/yahtzee.jpg", desc: "Lancia i dadi", link: "https://yahtzeeita.github.io/Yahtzee/" },
-
+{ title: "Color Match", img: "img/colormatch.jpg", desc: "Riordina i colori in scala cromatica", link: "https://shufflecolormatch.github.io/ColorMatch/" },
+    { title: "Yahtzee", img: "img/yahtzee.jpg", desc: "Lancia i dadi", link: "https://zogheti.github.io/Yahtzee/" },
+{ title: "Courier Life", img: "img/courier.jpg", desc: "Vesti panni di un corriere e porta i pacchi", link: "https://courierlife.github.io/CourierExpress/" },
+    { title: "Battaglia Navale", img: "img/batt.gif", desc: "Spara e affonda le navi nemiche", link: "https://zogheti.github.io/battaglia-navale/" },
 ];
 
 
@@ -32,14 +33,26 @@ card.innerHTML = `
 <img src="${item.img}" alt="${item.title}" />
 <h4>${item.title}</h4>
 <p>${item.desc}</p>
+</a>
 `;
 container.appendChild(card);
 });
 }
 
+const hoverSound = new Audio('audio/passgame.mp3');
+hoverSound.volume = 0.2;
+
 
 renderCards(games, "games-list");
 renderCards(apps, "apps-list");
+
+// qui aggiungi gli eventi
+document.querySelectorAll('.card').forEach(card => {
+    card.addEventListener('mouseenter', () => {
+        hoverSound.currentTime = 0;
+        hoverSound.play().catch(() => { });
+    });
+});
 
 // JavaScript source code
 function populateFooterGIFs(gifA, gifB) {
@@ -58,6 +71,13 @@ function populateFooterGIFs(gifA, gifB) {
     }
 }
 
+
+document.querySelectorAll('.card').forEach(card => {
+    card.addEventListener('mouseenter', () => {
+        hoverSound.currentTime = 0;
+        hoverSound.play().catch(() => { });
+    });
+});
 // Esegui al caricamento
 window.addEventListener('load', () => {
     populateFooterGIFs('img/gif06.gif', 'img/gif07.gif');

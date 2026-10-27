@@ -12,7 +12,7 @@ const games = [
 
 
 const apps = [
-{ title: "Call of the wild - the Angler", img: "img/cotw.jpg", desc: "Guida esche dei pesci nelle riserve", link: "http://call-of-the-wild.github.io/COTW/" },
+{ title: "Call of the wild - the Angler", img: "img/cotw.jpg", desc: "Guida esche dei pesci nelle riserve", link: "https://strafanici.github.io/COTW/" },
 { title: "Astrolabio", img: "img/astrolabio.jpg", desc: "Una visione sul cielo di oggi", link: "https://stellarisphere.github.io/Astrolabio/" },
 { title: "Costellazioni", img: "img/costellazioni.jpg", desc: "Scopri il cielo stellato", link: "https://databasecostellazioni.github.io/Costellazioni/" },
 { title: "Formula 1", img: "img/f1.jpg", desc: "Punteggi e classifiche", link: "https://database-formula-1.github.io/F1/" },

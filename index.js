@@ -22,7 +22,7 @@ document.querySelectorAll(".sidebar button").forEach((button, index) => {
 
 
 const immagini = [
-    { src: "img/alice.jpg", href: "http://mail.alice.it/", alt:"Immagine 1" },
+    { src: "img/alice.jpg", href: "https://www.tim.it/fisso-e-mobile/servizi/tim-mail", alt:"Immagine 1" },
     { src: "img/yahoo.jpg", href: "http://www.yahoo.it/", alt: "Immagine 2" },
     { src: "img/libero.gif", href: "http://www.libero.it/", alt: "Immagine 3" },
     { src: "img/tiscali.gif", href: "http://www.tiscali.it/", alt: "Immagine 4" },
@@ -33,7 +33,8 @@ const immagini = [
     { src: "img/ask.gif", href: "http://it.ask.com/", alt: "Immagine 6" },
     { src: "img/bing.jpg", href: "http://www.bing.com/", alt: "Immagine 6" },
     { src: "img/istella.gif", href: "http://www.istella.it/", alt: "Immagine 6" },
-  
+    { src: "img/gemini.jpg", href: "https://gemini.google.com", alt: "Immagine 6" },
+
 ];
 
 aggiungiImmaginiConLink(immagini);
@@ -62,6 +63,11 @@ function populateFooterGIFs(gifA, gifB) {
     const screenWidth = window.innerWidth;
     const gifWidth = 40; // larghezza in px, deve combaciare con il CSS
     const numGifs = Math.ceil(screenWidth / gifWidth);
+    const passa = document.getElementById('passa');
+    const passaimg = document.getElementById('passaimg');
+    // Volume da 0.0 a 1.0
+    passa.volume = 0.3;      // 30%
+    passaimg.volume = 0.3;  // 15%
 
     for (let i = 0; i < numGifs; i++) {
         const gif = document.createElement('img');
@@ -70,7 +76,20 @@ function populateFooterGIFs(gifA, gifB) {
         footer.appendChild(gif);
     }
 }
+document.addEventListener('mouseover', (e) => {
 
+    if (e.target.closest('.sidebar button')) {
+        playSound(passa);
+    }
+
+    if (
+        e.target.matches('.image-grid img') ||
+        e.target.matches('.bottom-images img')
+    ) {
+        playSound(passaimg);
+    }
+
+});
 // Esegui al caricamento
 window.addEventListener('load', () => {
     populateFooterGIFs('img/gif06.gif', 'img/gif07.gif');
@@ -89,3 +108,8 @@ aggiornaDimensione(select.value);
 select.addEventListener("change", function () {
     aggiornaDimensione(this.value);
 });
+
+function playSound(audio) {
+    audio.currentTime = 0;
+    audio.play();
+}

@@ -5,9 +5,10 @@ const games = [
 { title: "Tiny Golf", img: "img/golf.jpg", desc: "Riuscirai a diventare il golfer più bravo di tutti?", link: "http://tinygolf.github.io/TinyGolfClub" },
 { title: "Wordle", img: "img/wordle.jpg", desc: "Indovina la parola", link: "https://wordleitaliano.github.io/WordleGame/" },
 { title: "Color Match", img: "img/colormatch.jpg", desc: "Riordina i colori in scala cromatica", link: "https://shufflecolormatch.github.io/ColorMatch/" },
-    { title: "Yahtzee", img: "img/yahtzee.jpg", desc: "Lancia i dadi", link: "https://zogheti.github.io/Yahtzee/" },
+{ title: "Yahtzee", img: "img/yahtzee.jpg", desc: "Lancia i dadi", link: "https://zogheti.github.io/Yahtzee/" },
 { title: "Courier Life", img: "img/courier.jpg", desc: "Vesti panni di un corriere e porta i pacchi", link: "https://courierlife.github.io/CourierExpress/" },
-    { title: "Battaglia Navale", img: "img/batt.gif", desc: "Spara e affonda le navi nemiche", link: "https://zogheti.github.io/battaglia-navale/" },
+{ title: "Battaglia Navale", img: "img/batt.gif", desc: "Spara e affonda le navi nemiche", link: "https://zogheti.github.io/battaglia-navale/" },
+{ title: "Mastermind", img: "img/mastermind.jpg", desc: "Trova il codice cifrato", link: "https://zogheti.github.io/mastermind/" },
 ];
 
 

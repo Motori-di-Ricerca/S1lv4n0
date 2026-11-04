@@ -18,7 +18,7 @@ const apps = [
 { title: "Costellazioni", img: "img/costellazioni.jpg", desc: "Scopri il cielo stellato", link: "https://databasecostellazioni.github.io/Costellazioni/" },
 { title: "Formula 1", img: "img/f1.jpg", desc: "Punteggi e classifiche", link: "https://database-formula-1.github.io/F1/" },
 { title: "Orienteering", img: "img/orienteering.jpg", desc: "Classifica Orienteering PuntoK", link: "https://orienteeringpuntok.github.io/ClassificaPuntoK/" },
-{ title: "Primogens counter", img: "img/genshin.jpg", desc: "Calcola il tuo destino", link: "https://primogenscounter.github.io/Counter/" },
+{ title: "Primogens counter", img: "img/genshin.jpg", desc: "Calcola il tuo destino", link: "https://strafanici.github.io/PrimogemCounter/" },
     
 ];
 

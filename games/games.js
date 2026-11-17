@@ -9,6 +9,7 @@ const games = [
 { title: "Courier Life", img: "img/courier.jpg", desc: "Vesti panni di un corriere e porta i pacchi", link: "https://courierlife.github.io/CourierExpress/" },
 { title: "Battaglia Navale", img: "img/batt.gif", desc: "Spara e affonda le navi nemiche", link: "https://zogheti.github.io/battaglia-navale/" },
 { title: "Mastermind", img: "img/mastermind.jpg", desc: "Trova il codice cifrato", link: "https://zogheti.github.io/mastermind/" },
+{ title: "Bianco o Nero", img: "img/bianconero.jpg", desc: "Posizione le pedine tutte bianche o tutte nere", link: "https://zogheti.github.io/bianco-o-nero/" },
 ];
 
 
@@ -18,7 +19,7 @@ const apps = [
 { title: "Costellazioni", img: "img/costellazioni.jpg", desc: "Scopri il cielo stellato", link: "https://databasecostellazioni.github.io/Costellazioni/" },
 { title: "Formula 1", img: "img/f1.jpg", desc: "Punteggi e classifiche", link: "https://database-formula-1.github.io/F1/" },
 { title: "Orienteering", img: "img/orienteering.jpg", desc: "Classifica Orienteering PuntoK", link: "https://orienteeringpuntok.github.io/ClassificaPuntoK/" },
-{ title: "Primogens counter", img: "img/genshin.jpg", desc: "Calcola il tuo destino", link: "https://strafanici.github.io/PrimogemCounter/" },
+{ title: "Primogens counter", img: "img/genshin.jpg", desc: "Calcola il tuo destino", link: "https://primogenscounter.github.io/Counter/" },
     
 ];
 

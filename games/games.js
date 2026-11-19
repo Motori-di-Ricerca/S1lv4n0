@@ -7,7 +7,7 @@ const games = [
 { title: "Color Match", img: "img/colormatch.jpg", desc: "Riordina i colori in scala cromatica", link: "https://shufflecolormatch.github.io/ColorMatch/" },
 { title: "Yahtzee", img: "img/yahtzee.jpg", desc: "Lancia i dadi", link: "https://zogheti.github.io/Yahtzee/" },
 { title: "Courier Life", img: "img/courier.jpg", desc: "Vesti panni di un corriere e porta i pacchi", link: "https://courierlife.github.io/CourierExpress/" },
-{ title: "Battaglia Navale", img: "img/batt.gif", desc: "Spara e affonda le navi nemiche", link: "https://zogheti.github.io/battaglia-navale/" },
+{ title: "Acque Contese", img: "img/batt.gif", desc: "Spara e affonda le navi nemiche", link: "https://zogheti.github.io/acque-contese/" },
 { title: "Mastermind", img: "img/mastermind.jpg", desc: "Trova il codice cifrato", link: "https://zogheti.github.io/mastermind/" },
 { title: "Bianco o Nero", img: "img/bianconero.jpg", desc: "Posizione le pedine tutte bianche o tutte nere", link: "https://zogheti.github.io/bianco-o-nero/" },
 ];

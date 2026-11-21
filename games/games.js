@@ -8,7 +8,7 @@ const games = [
 { title: "Yahtzee", img: "img/yahtzee.jpg", desc: "Lancia i dadi", link: "https://zogheti.github.io/Yahtzee/" },
 { title: "Courier Life", img: "img/courier.jpg", desc: "Vesti panni di un corriere e porta i pacchi", link: "https://courierlife.github.io/CourierExpress/" },
 { title: "Acque Contese", img: "img/batt.gif", desc: "Spara e affonda le navi nemiche", link: "https://zogheti.github.io/acque-contese/" },
-{ title: "Mastermind", img: "img/mastermind.jpg", desc: "Trova il codice cifrato", link: "https://zogheti.github.io/mastermind/" },
+{ title: "Mind Breaker", img: "img/mastermind.jpg", desc: "Trova il codice cifrato", link: "https://zogheti.github.io/mind-breaker/" },
 { title: "Bianco o Nero", img: "img/bianconero.jpg", desc: "Posizione le pedine tutte bianche o tutte nere", link: "https://zogheti.github.io/bianco-o-nero/" },
 ];
 
